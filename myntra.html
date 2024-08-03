@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">`
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="myntra.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <style>
+      
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="logo">
+            <img src="logo.jpg" alt="Myntra Logo">
+        </div>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Myntra</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="menDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Mens
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="menDropdown">
+                            <li><a class="dropdown-item" href="men.html">Shirts</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Jeans</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Sneakers</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="women.html" id="womenDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Womens
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="womenDropdown">
+                            <li><a class="dropdown-item" href="#">Tunics</a></li>
+                            <li><a class="dropdown-item" href="#">Kurtas</a></li>
+                            <li><a class="dropdown-item" href="#">Saree</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="kidsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Kids
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="kidsDropdown">
+                            <li><a class="dropdown-item" href="#">Shirts</a></li>
+                            <li><a class="dropdown-item" href="#">Dresses</a></li>     
+                            <li><a class="dropdown-item" href="#">Shoes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="hlDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Home & Living
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="hlDropdown">
+                            <li><a class="dropdown-item" href="#">Bedsheets</a></li>
+                            <li><a class="dropdown-item" href="#">Mirrors</a></li>
+                            <li><a class="dropdown-item" href="#">Carpets</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="beautyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Beauty
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="beautyDropdown">
+                            <li><a class="dropdown-item" href="#">Sunscreen</a></li>
+                            <li><a class="dropdown-item" href="#">Lips Stick</a></li>
+                            <li><a class="dropdown-item" href="#">Eyeliner</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="d-flex justify-content-center w-50">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" id="searchfield" type="search" placeholder="Search for products,brands and more.." aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                 </div>
+                 <div class="profile">
+                    <img src="prof.jpg" alt="Profile">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="proDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Profile
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="proDropdown">
+                            <li><a class="dropdown-item" href="#">Orders</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Offers</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Coupouns</a></li>
+                        </ul>
+                    </li>
+                </div>
+                <div class="wishlist">
+                    <button class="btn">
+                        <img src="wishlist.jpg" alt="Wishlist">
+                        <p>Wishlist</p>
+                    </button>
+                </div>
+                <div class="bag">
+                    <button class="btn">
+                        <img src="bag.jpg" alt="Bag">
+                        <p>Bag</p>
+                    </button>
+
+
+        </div>
+        </div>
+        
+    </nav>
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel"data-bs-interval="1500">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="d1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="d2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="d3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="d4.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="d5.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class ="coupon">
+        <h1> COUNPONS CORNER</h1>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="women.html" class="card-link">
+                    <div class="card">
+                        <img src="de1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Ethnics</h5>
+                            <p>Aavasa & Fusion and more..</p>
+                            <p class="discount">50-70% OFF</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#" class="card-link">
+                    <div class="card">
+                        <img src="de2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>On-Trend Casuals</h5>
+                            <p>Wrangler, Lee & MORE</p>
+                            <p class="discount">MIN. 50% OFF</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#" class="card-link">
+                    <div class="card">
+                        <img src="de3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Lehenga</h5>
+                            <p>Lehenga & cholis and more..</p>
+                            <p class="discount">UP TO 40% OFF</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#" class="card-link">
+                    <div class="card">
+                        <img src="de4.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Quirky-Cool Fashion</h5>
+                            <p>SNITCH, BEWAKOOF & MORE</p>
+                            <p class="discount">MIN. 55% OFF</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="men.html" class="card-link">
+                    <div class="card">
+                        <img src="de6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Ethnics</h5>
+                            <p>Fusion and more..</p>
+                            <p class="discount">50-70% OFF</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#" class="card-link">
+                    <div class="card">
+                        <img src="de5.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>On-Trend Casuals</h5>
+                            <p>Roadster</p>
+                            <p class="discount">MIN. 50% OFF</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#" class="card-link">
+                    <div class="card">
+                        <img src="de7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Shirts and Tees</h5>
+                            <p>Combo Packs</p>
+                            <p class="discount">UP TO 40% OFF</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#" class="card-link">
+                    <div class="card">
+                        <img src="de8.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>John Players</h5>
+                            <p>Shirts on offers</p>
+                            <p class="discount">MIN. 55% OFF</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+     
+</body>
+</html>
